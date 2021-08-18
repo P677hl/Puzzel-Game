@@ -192,6 +192,7 @@ class Game {
     // Render message
     if (status === "won") {
       document.querySelector(".message").textContent = "You win!";
+      alert("Ciee yang baru aj menang!😏")
     } else {
       document.querySelector(".message").textContent = "";
     }
